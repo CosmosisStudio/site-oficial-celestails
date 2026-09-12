@@ -1,43 +1,48 @@
 <!DOCTYPE html>
-<html lang="ro">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio - Official Site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            padding: 50px 20px;
-            background-color: #1e1e1e;
-        }
-        h1 { margin: 0; color: #4CAF50; }
-        .container { padding: 40px 20px; }
-        footer { margin-top: 50px; padding: 20px; background-color: #1e1e1e; font-size: 0.9em; }
-        a { color: #4CAF50; text-decoration: none; }
-    </style>
+    <title>Celestails Studios | Official Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Game Studio</h1>
-        <p>Official Website</p>
-    </header>
+    <nav>
+        <a href="index.html" class="logo">CELESTAILS <span>STUDIOS</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="game.html">Games</a></li>
+        </ul>
+    </nav>
 
     <div class="container">
-        <h2>About Our Games</h2>
-        <p>Welcome to our game studio! Stay tuned for updates on our latest projects.</p>
+        <section class="hero">
+            <h1>Crafting Cosmic Experiences</h1>
+            <p>Independent game development studio focused on creating immersive mechanics and original worlds.</p>
+        </section>
+
+        <h2 class="section-title">Our Games</h2>
+        <section class="games-grid">
+            <div class="card">
+                <h3>Brick Breaker Game</h3>
+                <p>A solar system-themed brick breaker game with dynamic mechanics, level progression, and online leaderboards.</p>
+                <a href="game.html" class="btn">View Game</a>
+            </div>
+        </section>
+
+        <h2 class="section-title">Credits & Acknowledgments</h2>
+        <section class="card">
+            <p>Special thanks to our beta testers and community members for helping test, optimize, and polish our releases.</p>
+        </section>
     </div>
 
     <footer>
-        <p>&copy; 2026 Game Studio. All rights reserved.</p>
-        <p><a href="terms.html">Terms & Conditions</a> | <a href="privacy.html">Privacy Policy</a></p>
+        <p>&copy; 2026 Celestails Studios. All rights reserved.</p>
+        <p>
+            <a href="terms.html">Terms & Conditions</a> | 
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
     </footer>
 
 </body>
