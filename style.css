@@ -97,26 +97,11 @@ header {
     flex-shrink: 0;
 }
 
-/* The wordmark art is wide and short — at nav height it shrinks to an
-   unreadable smudge, so the header sets the name in type instead and the
-   full wordmark runs in the footer where it has room to breathe. */
-.logo-img { display: none; }
-
-.logo-star {
-    width: 17px;
-    height: 17px;
-    flex-shrink: 0;
-    fill: var(--violet-bright);
-    filter: drop-shadow(0 0 7px var(--glow));
-}
-
-.logo-text {
-    font-family: var(--display);
-    font-size: 1.08rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    color: #fff;
-    white-space: nowrap;
+.logo-img {
+    display: block;
+    width: auto;
+    height: 64px;
+    object-fit: contain;
 }
 
 header nav {
